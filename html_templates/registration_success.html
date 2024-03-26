@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Success</title>
+</head>
+<body>
+    {% if user_exists %}
+        <h1>User Already Exists</h1>
+        <p>The username '{{ username }}' is already registered. Please choose a different username.</p>
+    {% else %}
+        <h1>Registration Successful</h1>
+        <p>Thank you for registering, {{ username }}!</p>
+    {% endif %}
+</body>
+</html>
