@@ -22,8 +22,7 @@ This project implements a user management system using FastAPI, a modern web fra
 - `main.py`: The main script containing the FastAPI application definition and route handlers.
 - `models.py`: Defines the data models used in the application (e.g., UserCreate).
 - `html_templates/`: Directory containing HTML templates for the user interface.
-- `requirements.txt`: Lists all Python dependencies required to run the project.
-- `README.md`: Contains project documentation and setup instructions.
+
 
 **Usage:**
 
